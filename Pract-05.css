@@ -1,0 +1,52 @@
+body
+{
+    display: flex;
+    background-color: wheat;
+    flex-direction: column;
+    
+    width: 600px;
+    margin: 0 auto;
+}
+div 
+{
+  background: white;
+}
+
+h2
+  { color: blue;}
+#Titulo
+  {
+    color: black;
+    justify-content: flex-end;
+  }
+button
+  {
+    height: 45px; 
+    padding-left: 25px;
+    padding-right: 25px;   
+    margin-bottom: 20px; 
+    margin-top: 20px;   
+    text-transform: uppercase;
+    background-color: rgb(128, 128, 248); 
+    border-color: rgb(128, 128, 248); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 150px;   
+    cursor: pointer;
+
+    color:black; 
+  }
+
+  textarea{
+    background-color: white; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:green; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
